@@ -1,14 +1,14 @@
 @font-face {
 	font-family: roboto;
-	src: url(roboto_light.ttf);
+	src: url(fonts/roboto_light.ttf);
 }
 @font-face {
 	font-family: consola;
-	src: url(consola.ttf);
+	src: url(fonts/consola.ttf);
 }
 @font-face {
 	font-family: roboto;
-	src: url(roboto_bold.ttf);
+	src: url(fonts/roboto_bold.ttf);
 	font-weight: bold;
 }
 body {
@@ -16,26 +16,50 @@ body {
 	margin: 0px;
 	align-content: center;
 	font-family: roboto;
-	font-size: 1.05em;
-	color: black;
+	font-size: 1.1em;
+	color: #444444;
 }
 a:link, a:visited {
-	color: #444444;
+	color: white;
 	text-decoration: none;
 }
-#banner {
+#navbar {
+	padding: 0 5px 0 5px;
+}
+#navbar:hover {
+	background-color: #333333;
+}
+td {
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin: 10px 200px 0px 200px;
+}
+#banner{
 	padding-top: 0px;
+	padding-bottom: 0px;
 	text-align: center;
 	line-height: 140px;
 	margin-top: 0px;
+	margin-bottom: 0px;
 	top: 0;
 	background-color: #444444;
-	height: 150px;
+	height: 200px;
 	width: 100%;
 	color: white;
 }
 #spaced {
+	width: 1px;
+	height: 20px;
+	background-color: white;
 	font-family: roboto;
 	font-weight: bold;
 	font-size: 1.6em;
+}
+#weblinks tr{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
 }
