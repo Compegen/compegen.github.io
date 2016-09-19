@@ -1,0 +1,44 @@
+@font-face {
+	font-family: roboto;
+	src: url(roboto_light.ttf);
+}
+@font-face {
+	font-family: consola;
+	src: url(consola.ttf);
+}
+@font-face {
+	font-family: roboto;
+	src: url(roboto_bold.ttf);
+	font-weight: bold;
+}
+body {
+	text-align: center;
+	margin: 0px;
+	align-content: center;
+	font-family: roboto;
+	font-size: 1.05em;
+	color: black;
+}
+a:link, a:visited {
+	color: #444444;
+	text-decoration: none;
+}
+li {
+	display: inline;
+}
+#banner {
+	padding-top: 0px;
+	text-align: center;
+	line-height: 140px;
+	margin-top: 0px;
+	top: 0;
+	background-color: #444444;
+	height: 150px;
+	width: 100%;
+	color: white;
+}
+#spaced {
+	font-family: roboto;
+	font-weight: bold;
+	font-size: 1.6em;
+}
