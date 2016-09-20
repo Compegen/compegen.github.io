@@ -17,7 +17,7 @@ body {
 	align-content: center;
 	font-family: roboto;
 	font-size: 1.1em;
-	color: #444444;
+	color: #AAAAAA;
 }
 a:link, a:visited {
 	color: white;
@@ -27,14 +27,13 @@ a:link, a:visited {
 	padding: 0 5px 0 5px;
 }
 #navbar:hover {
-	background-color: #333333;
+	background-color: #252525;
 }
 td {
 	text-align: center;
 }
 p {
 	text-align: center;
-	margin: 10px 200px 0px 200px;
 }
 #banner{
 	padding-top: 0px;
@@ -44,7 +43,7 @@ p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	top: 0;
-	background-color: #444444;
+	background-color: #333333;
 	height: 200px;
 	width: 100%;
 	color: white;
