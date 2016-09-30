@@ -13,19 +13,27 @@ body {
 }
 a:link, a:visited { color: white; text-decoration: none; }
 
-p {
-	text-align: center;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#_title li {
+	font-family: consola;
+	display: inline;
+	padding: 0; 
+	margin: 0; 
+	color: white; 
+	font-size: 2.3em;
 }
 
 #navbar {
-	list-style-type: none;
-	list-style-position: inside;
-	margin: 0;
-	padding: 40px 0;
+	padding: 40px 0 0 0;
 }
 #navbar li {
 	margin: 0;
-	padding-right: 6px;
+	padding: 0 4px;
 	display: inline;
 	text-align: center;
 	border-right: 3px solid white;
@@ -40,12 +48,10 @@ p {
 #navbar a:hover { background-color: #222222; }
 
 #banner{
-	font-family: consola;
-	padding: 40px 0 10px 0;
+	padding: 40px 0;
 	text-align: center;
 	margin: 0;
 	background-color: #333333;
-	min-height: 120px;
 	width: 100%;
 	color: white;
 }
