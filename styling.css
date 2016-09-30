@@ -1,16 +1,7 @@
-@font-face {
-	font-family: roboto;
-	src: url(fonts/roboto_light.ttf);
-}
-@font-face {
-	font-family: roboto;
-	src: url(fonts/roboto_bold.ttf);
-	font-weight: bold;
-}
-@font-face {
-	font-family: consola;
-	src: url(fonts/consola.ttf);
-}
+@font-face { font-family: roboto; src: url(fonts/roboto_light.ttf); }
+@font-face { font-family: roboto; src: url(fonts/roboto_bold.ttf); font-weight: bold; }
+@font-face { font-family: consola; src: url(fonts/consola.ttf); }
+
 
 body {
 	text-align: center;
@@ -20,48 +11,41 @@ body {
 	font-size: 1.1em;
 	color: #AAAAAA;
 }
-a:link, a:visited {
-	color: white;
-	text-decoration: none;
-}
-#navbar {
-	padding: 0 5px 0 5px;
-}
-#navbar:hover {
-	background-color: #252525;
-}
-td {
-	text-align: center;
-}
+a:link, a:visited { color: white; text-decoration: none; }
+
 p {
 	text-align: center;
-	width: 800px;
 }
-#banner{
-	position: static;
-	padding-top: 0px;
-	padding-bottom: 0px;
+
+#navbar {
+	list-style-type: none;
+	list-style-position: inside;
+	margin: 0;
+	padding: 40px 0;
+}
+#navbar li {
+	margin: 0;
+	padding-right: 6px;
+	display: inline;
 	text-align: center;
-	line-height: 140px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	top: 0;
+	border-right: 3px solid white;
+}
+#navbar li:last-child { border-right: none; }
+
+#navbar a {
+	padding: 4px 6px;
+	margin: 0;
+	text-align: center;
+}
+#navbar a:hover { background-color: #222222; }
+
+#banner{
+	font-family: consola;
+	padding: 40px 0 10px 0;
+	text-align: center;
+	margin: 0;
 	background-color: #333333;
-	height: 200px;
+	min-height: 120px;
 	width: 100%;
 	color: white;
-}
-#spaced {
-	width: 1px;
-	height: 20px;
-	background-color: white;
-	font-family: roboto;
-	font-weight: bold;
-	font-size: 1.6em;
-}
-#weblinks tr{
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	padding: 5px 5px 5px 5px;
 }
